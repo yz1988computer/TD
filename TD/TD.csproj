@@ -46,6 +46,7 @@
   <ItemGroup>
     <Compile Include="Security\Base\MD5Base.cs" />
     <Compile Include="Encode\Base\UrlEncodeBase.cs" />
+    <Compile Include="Security\Base\RSABase.cs" />
     <Compile Include="Security\MD5.cs" />
     <Compile Include="Encode\UrlEncode.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -56,6 +57,8 @@
     <Compile Include="Dynamic\TypeParser.cs" />
     <Compile Include="Encode\Base64.cs" />
     <Compile Include="Encode\Base\Base64Base.cs" />
+    <Compile Include="Security\RSA.cs" />
+    <Compile Include="Security\Base\RSAKey.cs" />
     <Compile Include="Serialize\Base\FileSerializeBase.cs" />
     <Compile Include="Dynamic\JsonDynamic.cs" />
     <Compile Include="Serialize\FileSerialize.cs" />
