@@ -61,9 +61,6 @@
     <Compile Include="Serialize\Base\JSonBase.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ignore.gitignore" />
-  </ItemGroup>
-  <ItemGroup>
     <Folder Include="Security\Base\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
