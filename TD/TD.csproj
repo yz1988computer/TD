@@ -44,7 +44,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Security\Base\MD5Base.cs" />
     <Compile Include="Encode\Base\UrlEncodeBase.cs" />
+    <Compile Include="Security\MD5.cs" />
     <Compile Include="Encode\UrlEncode.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Dynamic\CExtender.cs" />
@@ -60,9 +62,7 @@
     <Compile Include="Serialize\Json.cs" />
     <Compile Include="Serialize\Base\JSonBase.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Security\Base\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
