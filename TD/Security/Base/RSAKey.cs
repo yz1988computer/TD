@@ -8,7 +8,7 @@ namespace TD.Security.Base
     /// <summary>
     /// RSA公钥、密钥
     /// </summary>
-    public class RSAKey
+    public sealed class RSAKey
     {
         /// <summary>
         /// 公钥，可以提供给别人
