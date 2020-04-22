@@ -50,6 +50,7 @@
     <Otherwise />
   </Choose>
   <ItemGroup>
+    <Compile Include="Formatter\DateFormatterTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Security\DESTest.cs" />
     <Compile Include="Security\MD5Test.cs" />

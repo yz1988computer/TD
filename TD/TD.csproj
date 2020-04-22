@@ -44,6 +44,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Encode\UrlSafeBase64.cs" />
+    <Compile Include="Formatter\DateFormatter.cs" />
     <Compile Include="Security\Base\DESBase.cs" />
     <Compile Include="Security\Base\DESKey.cs" />
     <Compile Include="Security\Base\MD5Base.cs" />
