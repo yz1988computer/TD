@@ -2,5 +2,6 @@
 /TD/obj
 /TD.Test/bin
 /TD.Test/obj
+/.vs
 *.suo
 *.user
